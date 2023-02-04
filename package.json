@@ -1,7 +1,7 @@
 {
-  "name": "crowd-funding",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,5 +25,13 @@
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naidiri1/model_view_controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naidiri1/model_view_controller/issues"
+  },
+  "homepage": "https://github.com/Naidiri1/model_view_controller#readme"
 }
