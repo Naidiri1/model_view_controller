@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blog</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" type="text" src="../../public/css/style.css">
+    <link rel="stylesheet" type="text" href="../../public/css/jass.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <header class="display-flex justify-space-between align-center p-2">
      <nav>
         <!-- Conditionally render login or logout links -->
-         <a href="/">Home</a>
+         <a href="/homepage">Home</a>
         {{#if logged_in}}
         <button class="no-button" id="logout">logout</button>
         {{else}}
@@ -38,7 +39,7 @@
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
-  <script src="/js/logout.js"></script>
+  <script src="../../public/js/logout.js" type="text"></script>
   {{/if}}
   
 </body>
