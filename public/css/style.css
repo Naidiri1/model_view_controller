@@ -17,3 +17,13 @@ header, .post:not(:last-child) {
     text-decoration: underline;
   }
   
+
+  #links{
+    background-color: rgb(51, 103, 138);
+    
+  }
+
+.post {
+
+background-color: #1b89bc;
+}
