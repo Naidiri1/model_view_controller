@@ -1,0 +1,12 @@
+<!-- Loop over each object in the posts array -->
+<div class="row mb-4 post">
+  <div class="col-md-5">
+      <p>{{title}}</p>
+    <p>Posted by:{{user.name}} on {{format_date date_created}}</p>
+  </div>
+  <div class="col-md-7">
+    <p> {{content}}</p>
+  </div>
+</div>
+  <button class="btn btn-primary" type="submit">Edit post</button>
+    <button class="btn btn-primary" type="submit">Delete post</button>
