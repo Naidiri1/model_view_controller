@@ -19,8 +19,9 @@ router.delete('/:id', withAuth, async (req, res) => {
   try {
     const postData = await Post.destroy({
       where: {
+        // ids are unique so there will be no post with same id, so finding by user_id also isnt needed
         id: req.params.id,
-        user_id: req.session.user_id,
+        // user_id: req.session.user_id,
       },
     });
 
@@ -35,6 +36,7 @@ router.delete('/:id', withAuth, async (req, res) => {
   }
 });
 
+//localhost:3001/api/posts/:id
 router.put ('/:id', withAuth, async (req,res) => {
   try{
 const postData = await Post.update(req.body ,{

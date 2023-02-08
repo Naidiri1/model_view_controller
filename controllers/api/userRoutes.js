@@ -16,6 +16,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+//once we hit this route, it works with the database
 router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
@@ -37,6 +38,7 @@ router.post('/login', async (req, res) => {
         .json({ message: 'Incorrect email or password, please try again' });
       return;
     }
+    //after the email and Password validation, then it signs you in using session
 
     // Create session variables based on the logged in user
     req.session.save(() => {

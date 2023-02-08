@@ -7,23 +7,36 @@ header, .post:not(:last-child) {
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #1b89bc;
+    color: #080e11;
     text-decoration: none;
     font-size: 100%;
   }
   
   .no-button:hover {
-    color: #065b83;
+    color: #030607;
     text-decoration: underline;
   }
   
 
-  #links{
-    background-color: rgb(51, 103, 138);
-    
-  }
-
 .post {
 
 background-color: #1b89bc;
+}
+
+header{
+  background-color: #1b89bc;
+
+}
+
+a{
+  color:black 
+}
+
+a:hover{
+  color: rgb(16, 17, 17);
+ 
+}
+
+.post {
+  background-color: rgb(120, 158, 158);
 }

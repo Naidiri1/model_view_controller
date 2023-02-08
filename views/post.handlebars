@@ -1,12 +1,23 @@
-<!-- Loop over each object in the posts array -->
-<div class="row mb-4 post">
-  <div class="col-md-5">
-      <p>{{title}}</p>
-    <p>Posted by:{{user.name}} on {{format_date date_created}}</p>
+   <div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Edit your post</h3>
+        <p>Posted by:{{user.name}} on {{format_date date_created}}</p>
+
+    <form class="form edit-post-form">
+      <div class="form-group">
+        <label for="post-name">Title:</label>
+        <input class="form-input" value="{{title}}" type="text" id="updated-post-name" name="post-name" />
+      </div>
+     
+      <div class="form-group">
+        <label for="content-desc">content:</label>
+        <textarea class="form-input" id="updated-post-content" name="post-desc">{{content}}</textarea>
+      </div>
+      <div class="form-group">
+         <button type="button" id="updateBtn" class="btn btn-primary" data-update-id="{{id}}">Edit Post</button>
+         <button type="button"class="btn btn-sm btn-danger" data-id="{{id}}">Delete Post</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="../js/edit.js"></script>
   </div>
-  <div class="col-md-7">
-    <p> {{content}}</p>
-  </div>
-</div>
-  <button class="btn btn-primary" type="submit">Edit post</button>
-    <button class="btn btn-primary" type="submit">Delete post</button>
+
