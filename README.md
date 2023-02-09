@@ -24,7 +24,7 @@ In order to be able to use this app Note Taker, the user needs to install a `pac
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5".
+    "sequelize": "^6.3.5"
 
     Once the user has the necessary packages to be able to use this app. 
    
