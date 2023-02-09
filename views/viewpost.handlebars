@@ -1,6 +1,6 @@
-   <div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Posted by:{{user.name}} on {{format_date date_created}}</h3>
+<div class="row mt-4">
+  <div class="col-md-6 posted">
+    <h3>Posted by: {{user.name}} on {{format_date date_created}}</h3>
 
     <div class="form edit-post-form">
       <div class="form-group">
@@ -13,4 +13,10 @@
       </div>
     </div>
   </div>
-
+</div>
+{{#if logged_in}}
+        <button class="no-button" id="log-out">logout</button>
+        {{/if}}
+ {{#if logged_in}}
+  <script type="text/javascript" src="/js/logout.js" ></script>
+  {{/if}}

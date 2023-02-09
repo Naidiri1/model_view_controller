@@ -40,3 +40,12 @@ a:hover{
 .post {
   background-color: rgb(120, 158, 158);
 }
+.edit-post-form{
+
+  background-color: #97adb8;
+}
+
+.posted{
+  background-color: bisque;
+}
+
