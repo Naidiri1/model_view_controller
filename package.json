@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/Naidiri1/model_view_controller/issues"
   },
-  "homepage": "https://github.com/Naidiri1/model_view_controller#readme"
+  "homepage": "https://github.com/Naidiri1/model_view_controller#readme", 
+  "engines": {
+    "node": "16.x"
+  }
 }
