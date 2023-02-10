@@ -69,8 +69,8 @@ The user will have to open the command line and type `npm i` and all the package
 
 ![Sample of the command line ](./imgs-readme/command-line.jpg)
 
-- [The Tech Blog deployed app in Heroku link](/)
-
+- [The Tech Blog video](https://app.castify.com/view/0d4f4735-30d3-4f53-a83d-a0b0f17d2deb)
+- [The Tech Blog deployed](https://pacific-reef-66422.herokuapp.com/)
 ## Credits 
 
 N/A
