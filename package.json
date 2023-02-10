@@ -31,13 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Naidiri1/model_view_controller.git"
+    "url": "git+https://github.com/Naidiri1/model_view_controller.git",
+    "engines": {
+      "node": "16.x"
+    }
   },
   "bugs": {
     "url": "https://github.com/Naidiri1/model_view_controller/issues"
   },
-  "homepage": "https://github.com/Naidiri1/model_view_controller#readme",
-  "engines": {
-    "node": "16.x"
-  }
+  "homepage": "https://github.com/Naidiri1/model_view_controller#readme"
+  
 }
